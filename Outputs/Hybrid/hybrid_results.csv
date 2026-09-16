@@ -1,0 +1,6 @@
+Sample Index,Soil Type,Image Confidence,N Status,N Confidence,P Status,P Confidence,K Status,K Confidence,Soil Health Score,Overall Assessment
+0,Alluvial_Soil,0.73,Not Deficient,0.9952,Not Deficient,0.9675,Not Deficient,0.985,100.0,"No modeled N, P, or K deficiency detected."
+500,Alluvial_Soil,0.73,Deficient,0.9634,Not Deficient,0.9906,Deficient,0.9114,33.33,Two modeled nutrient deficiencies detected.
+1000,Alluvial_Soil,0.73,Not Deficient,0.9805,Not Deficient,0.9332,Not Deficient,0.964,100.0,"No modeled N, P, or K deficiency detected."
+1500,Alluvial_Soil,0.73,Not Deficient,0.7936,Not Deficient,0.9796,Not Deficient,0.9925,100.0,"No modeled N, P, or K deficiency detected."
+2000,Alluvial_Soil,0.73,Not Deficient,0.9852,Not Deficient,0.9721,Not Deficient,0.9603,100.0,"No modeled N, P, or K deficiency detected."

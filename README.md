@@ -192,7 +192,7 @@ Fine-tuning improved test accuracy by **1.68 percentage points**.
 
 The final fine-tuned model was selected and saved as:
 
-`Models/efficientnet_soil_classifier_finetuned.keras`
+`models/efficientnet_soil_classifier_finetuned.keras`
 
 ### Final Test Classification Report
 

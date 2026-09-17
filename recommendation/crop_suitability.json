@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "name": "Crop-Soil Compatibility Dataset",
+    "version": "1.0",
+    "purpose": "Prototype dataset for matching soil conditions with crop suitability.",
+    "note": "Suitability ranges are used for prototype scoring and should be validated against local agronomic recommendations before field deployment."
+  },
+
+  "scoring": {
+    "total_score": 100,
+    "parameters": {
+      "nitrogen": 20,
+      "phosphorus": 15,
+      "potassium": 15,
+      "ph": 25,
+      "organic_carbon": 15,
+      "overall_nutrient_balance": 10
+    }
+  },
+
+  "crops": {
+
+    "rice": {
+      "name": "Rice",
+      "suitable_ph": [5.5, 7.5],
+      "nitrogen": [280, 560],
+      "phosphorus": [10, 25],
+      "potassium": [120, 280],
+      "organic_carbon": [0.5, 0.75]
+    },
+
+    "wheat": {
+      "name": "Wheat",
+      "suitable_ph": [6.0, 7.5],
+      "nitrogen": [280, 560],
+      "phosphorus": [10, 25],
+      "potassium": [120, 280],
+      "organic_carbon": [0.5, 0.75]
+    },
+
+    "maize": {
+      "name": "Maize",
+      "suitable_ph": [5.5, 7.5],
+      "nitrogen": [280, 560],
+      "phosphorus": [10, 25],
+      "potassium": [120, 280],
+      "organic_carbon": [0.5, 0.75]
+    },
+
+    "groundnut": {
+      "name": "Groundnut",
+      "suitable_ph": [5.5, 7.0],
+      "nitrogen": [280, 560],
+      "phosphorus": [10, 25],
+      "potassium": [120, 280],
+      "organic_carbon": [0.5, 0.75]
+    },
+
+    "cotton": {
+      "name": "Cotton",
+      "suitable_ph": [5.5, 8.0],
+      "nitrogen": [280, 560],
+      "phosphorus": [10, 25],
+      "potassium": [120, 280],
+      "organic_carbon": [0.5, 0.75]
+    },
+
+    "tomato": {
+      "name": "Tomato",
+      "suitable_ph": [5.5, 7.5],
+      "nitrogen": [280, 560],
+      "phosphorus": [10, 25],
+      "potassium": [120, 280],
+      "organic_carbon": [0.5, 0.75]
+    },
+
+    "sugarcane": {
+      "name": "Sugarcane",
+      "suitable_ph": [6.0, 7.5],
+      "nitrogen": [280, 560],
+      "phosphorus": [10, 25],
+      "potassium": [120, 280],
+      "organic_carbon": [0.5, 0.75]
+    }
+
+  }
+}

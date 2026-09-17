@@ -1,0 +1,65 @@
+{
+  "nutrients": {
+    "nitrogen": {
+      "unit": "kg/ha",
+      "low_max": 280,
+      "medium_min": 280,
+      "medium_max": 560,
+      "recommendation": [
+        "Use soil-test-based nitrogen management",
+        "Follow crop-specific recommended fertilizer dose",
+        "Consider integrated nutrient management",
+        "Use split nitrogen application where appropriate"
+      ]
+    },
+
+    "phosphorus": {
+      "unit": "kg/ha",
+      "low_max": 10,
+      "medium_min": 10,
+      "medium_max": 25,
+      "recommendation": [
+        "Use soil-test-based phosphorus management",
+        "Follow crop-specific recommended fertilizer dose",
+        "Avoid unnecessary phosphorus application"
+      ]
+    },
+
+    "potassium": {
+      "unit": "kg/ha",
+      "low_max": 120,
+      "medium_min": 120,
+      "medium_max": 280,
+      "recommendation": [
+        "Use soil-test-based potassium management",
+        "Follow crop-specific recommended fertilizer dose",
+        "Maintain balanced NPK nutrition"
+      ]
+    }
+  },
+
+  "ph": {
+    "acidic_max": 6.5,
+    "suitable_min": 6.5,
+    "suitable_max": 7.5,
+    "alkaline_min": 7.5
+  },
+
+  "organic_carbon": {
+    "unit": "percent",
+    "low_max": 0.5,
+    "medium_min": 0.5,
+    "medium_max": 0.75,
+    "high_min": 0.75
+  },
+
+  "fertilizer_principles": {
+    "framework": "4R Nutrient Stewardship",
+    "principles": [
+      "Right Source",
+      "Right Rate",
+      "Right Time",
+      "Right Place"
+    ]
+  }
+}

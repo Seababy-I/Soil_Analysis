@@ -1,4 +1,5 @@
 # AI-Powered Soil Analytics System for Nutrient Assessment and Intelligent Crop Advisory
+[![Architecture diagram of seababy-i/soil_analysis](https://gitdiagram.com/seababy-i/soil_analysis/diagram.png)](https://gitdiagram.com/seababy-i/soil_analysis?utm_source=readme&utm_medium=picture)
 
 ## 1. Project Overview
 
